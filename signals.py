@@ -549,5 +549,4 @@ for s1 in module_list:  # 分析每个模块里每个信号的驱动关系
     locals()[name1 + '_signals'] = signal_analysis(s1)
     print('%s_signals:%s:' % (name1, locals()[name1 + '_signals']))
 
-分析例化模块里的
 
